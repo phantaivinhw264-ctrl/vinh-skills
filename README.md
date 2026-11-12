@@ -21,7 +21,6 @@ Ba plugin sau trỏ thẳng tới repo gốc, nên luôn lấy bản mới nhấ
 /plugin install watch@vinh-skills
 ```
 
-Repo để Private, nên máy cần đăng nhập GitHub (`gh auth login`) trước.
 Bật tự động cập nhật: `/plugin` → Marketplaces → `vinh-skills` → Enable auto-update.
 
 `watch` cần thêm: Python 3.10+, ffmpeg, yt-dlp (macOS: `brew install python ffmpeg yt-dlp`).

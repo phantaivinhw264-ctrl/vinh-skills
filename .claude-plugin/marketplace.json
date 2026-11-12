@@ -1,0 +1,31 @@
+{
+  "name": "vinh-skills",
+  "owner": { "name": "Vinh" },
+  "metadata": { "description": "Bộ skill cá nhân của Vinh cho Claude Code" },
+  "plugins": [
+    {
+      "name": "frontend-design",
+      "source": "./plugins/frontend-design",
+      "description": "Thiết kế giao diện có chủ đích, tránh kiểu 'mặc định AI' (bản sao từ Anthropic).",
+      "category": "design"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "source": { "source": "github", "repo": "nextlevelbuilder/ui-ux-pro-max-skill" },
+      "description": "Kho phong cách UI, bảng màu, cặp font và quy tắc UX để Claude tra trước khi code.",
+      "category": "design"
+    },
+    {
+      "name": "ponytail",
+      "source": { "source": "github", "repo": "DietrichGebert/ponytail" },
+      "description": "Viết ít code nhất mà vẫn đủ an toàn, giảm token và chi phí.",
+      "category": "productivity"
+    },
+    {
+      "name": "watch",
+      "source": { "source": "github", "repo": "bradautomates/claude-video" },
+      "description": "Xem video: tách khung hình kèm mốc thời gian và transcript.",
+      "category": "productivity"
+    }
+  ]
+}
